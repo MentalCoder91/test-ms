@@ -12,5 +12,12 @@ public class EmployeeController {
 		return "hello";
 
 	}
+	
+	@GetMapping
+	public String hello6() {
+
+		return "hello6";
+
+	}
 
 }
